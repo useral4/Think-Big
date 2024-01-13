@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    list-style: none;
+    font-size: 28px;
+}
+
+header ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+html {
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Margarine', sans-serif;
+}
+
+header ul li a button {
+    border: 2px solid white;
+    font-size: 28px;
+    border-radius: 50px;
+    padding: 10px 25px;
+    background: none;
+    transition: 0.5s;
+    color: #fff;
+}
+
+header ul li a button:hover {
+    transform: scale(1.2);
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+}
